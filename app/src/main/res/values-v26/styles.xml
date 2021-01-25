@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF0000</item>
+        <item name="colorPrimaryDark">#FF0000</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="android:autofilledHighlight">@color/transparent</item>
+        <item name="android:windowAnimationStyle">
+            @style/CustomActivityAnimationStyle
+        </item>
+    </style>
+</resources>

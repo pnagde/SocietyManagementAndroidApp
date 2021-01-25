@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MonthlyExpForm"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <EditText
+        android:id="@+id/meName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/inbox_bck"
+        android:hint="Expense name"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/meAmount"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:background="@drawable/inbox_bck"
+        android:hint="Expense Amount/INR"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/meDate"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:editable="false"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:onClick="onClick"
+        android:background="@drawable/inbox_bck"
+        android:hint="Enter Date" />
+
+
+    <EditText
+        android:id="@+id/meDescription"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inbox_bck"
+        android:hint="Expense Description"
+        android:inputType="textMultiLine"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp" />
+
+    <RadioGroup
+        android:id="@+id/RG_me"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/inbox_bck"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/RecurRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recurring" />
+
+        <RadioButton
+            android:id="@+id/oneTimeRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One Time" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Submit_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/primaryDark"
+        android:text="Submit"
+        android:textColor="#FFFF" />
+
+    <Button
+        android:id="@+id/cancel_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/primaryDark"
+        android:text="Cancel"
+        android:textColor="#FFFF" />
+
+</LinearLayout>

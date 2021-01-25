@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "319004451766",
+    "firebase_url": "https://societymanagementapp-56e59-default-rtdb.firebaseio.com",
+    "project_id": "societymanagementapp-56e59",
+    "storage_bucket": "societymanagementapp-56e59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319004451766:android:fbbf0c32ea49c5c0cf5717",
+        "android_client_info": {
+          "package_name": "com.example.societymanagementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319004451766-3efmvmoof1s6k9cu72pl3tehtf6kid0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.societymanagementapp",
+            "certificate_hash": "42e50765b0c7646b876b029b6058cb2f211b7f2e"
+          }
+        },
+        {
+          "client_id": "319004451766-hedcjive51c0cfhluvfo5n2qcodrpae9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQFaaPH3fxGFPUlyjV8Qr_0fKmyj0dvUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319004451766-hedcjive51c0cfhluvfo5n2qcodrpae9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

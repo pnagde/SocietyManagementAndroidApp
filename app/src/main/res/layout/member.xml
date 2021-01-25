@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            android:layout_centerVertical="true"
+            android:id="@+id/proImage"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameView"
+            android:text="demoName"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/proImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sector"
+            android:text="Sector"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/proImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/nameView"
+            android:layout_toEndOf="@id/proImage" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sectorView"
+            android:layout_marginTop="2dp"
+            android:layout_below="@id/nameView"
+            android:text="demoSector"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/sector"
+            android:layout_toEndOf="@id/sector"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/plotno"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sector"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/proImage"
+            android:layout_toRightOf="@id/proImage"
+            android:text="Plot No"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/plotView"
+            android:text="demoPlotNo"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/plotno"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/sectorView"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/plotno" />
+
+        <TextView
+            android:id="@+id/area"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plotno"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/proImage"
+            android:layout_toRightOf="@id/proImage"
+            android:text="Area"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/areaView"
+            android:text="demoArea"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/area"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/plotView"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/area" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Square unit"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/areaView"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/plotView"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/areaView" />
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

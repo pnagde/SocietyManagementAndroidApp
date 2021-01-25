@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maintenance"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:fitsSystemWindows="true">
+
+    <EditText
+        android:id="@+id/mainName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/inbox_bck"
+        android:hint="Maintenance Name"
+        android:paddingLeft="10dp" />
+
+    <RadioGroup
+        android:id="@+id/RBG"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/inbox_bck"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp">
+
+        <RadioButton
+            android:id="@+id/fix"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Fix" />
+
+        <RadioButton
+            android:id="@+id/RBM"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Per Square Fit" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitM"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:background="#FF0000"
+        android:text="Submit"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/CancelM"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="#FF0000"
+        android:text="Cancel"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

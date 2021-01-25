@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Manage Forms">
+        <menu>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_acount"/>
+        <item android:id="@+id/nav_memberform"
+            android:title="Member Form"
+            android:icon="@drawable/ic_memberform"/>
+        <item android:id="@+id/nav_memberlist"
+            android:title="Member List"
+            android:icon="@drawable/memberlist_ic"/>
+        <item android:id="@+id/nav_societyform"
+            android:title="Society Form"
+            android:icon="@drawable/ic_societyform"/>
+        <item android:id="@+id/society_list"
+            android:title="Society List"
+            android:icon="@drawable/ic_societyform"/>
+        <item android:id="@+id/nav_documents"
+            android:title="Society Documents"
+            android:icon="@drawable/ic_societyform"/>
+        <item android:id="@+id/nav_post"
+            android:title="Society Post"
+            android:icon="@drawable/ic_societyform"/>
+        <item android:id="@+id/nav_exp_menu"
+            android:title="Society Expenses"
+            android:icon="@drawable/ic_societyform"/>
+        <item android:id="@+id/maintenance"
+            android:title="Society Maintenance"
+            android:icon="@drawable/ic_societyform"/>
+    </group>
+        </menu>
+    </item>
+    <item android:title="communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_aboutus"
+            android:title="About Us"
+            android:icon="@drawable/ic_baseline_info_24"/>
+                <item android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/ic_logout"/>
+            </group>
+        </menu>
+
+        </item>
+
+
+</menu>
